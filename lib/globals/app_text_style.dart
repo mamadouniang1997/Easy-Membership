@@ -14,7 +14,7 @@ class AppTextStyle {
      return GoogleFonts.rubik(
       fontSize: 30,
       fontWeight: FontWeight.bold,
-      color: Color.fromARGB(255, 148, 31, 31),
+      color: Color.fromARGB(255, 205, 53, 53),
      );
   }
   static TextStyle headerTextSty(){
@@ -22,6 +22,26 @@ class AppTextStyle {
       fontSize: 25,
       fontWeight: FontWeight.bold,
      color: Colors.white,
+     );
+  }
+
+
+  static TextStyle montserratStyle(){
+     return GoogleFonts.passionOne(
+     color: Colors.white,
+     fontWeight: FontWeight.bold,
+     fontSize: 24,
+      
+     );
+  }
+
+
+  static TextStyle headingStyle(){
+     return GoogleFonts.rubikMoonrocks(
+     color: Colors.white,
+     fontWeight: FontWeight.bold,
+     fontSize: 36,
+     letterSpacing: 2,
      );
   }
 }

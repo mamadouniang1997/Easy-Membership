@@ -1,4 +1,5 @@
-import 'package:easy_membership/pages/Home.dart';
+
+import 'package:easy_membership/pages/home/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
